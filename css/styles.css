@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-.body-inicio{
-    background-color: black;
-}
 
 .imgs-navbar{
     height: 100px;
@@ -66,7 +63,7 @@ h1{
 /*Nirvana clases*/
 .nirvana-blog{
     margin-top: 200px;
-    background-color: yellow;
+    background-color: red;
     border: solid black 5px;
     margin-left: 50px;
     margin-right: 50px;
