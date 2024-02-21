@@ -1,0 +1,279 @@
+.b1-nirvana {
+    background-color: $color-nirvana ;
+    border: solid black;
+    grid-area: aa;
+
+    .h1-nirvana {
+        font-size: $fuente-grande;
+        margin-top: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h2-nirvana {
+        font-size: $fuente-media;
+        margin: 10px 50px 10px 50px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h3-nirvana {
+        margin-top: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: $fuente-media;
+    }
+}
+
+.b2-nirvana {
+    background-color: $color-nirvana ;
+    border: solid black;
+    grid-area: ab;
+
+    img {
+        width: 235px;
+        height: 235px;
+        margin: 5px 5px 5px 5px;
+        @include centrar
+    }
+}
+
+.b3-nirvana {
+    background-color: $color-nirvana ;
+    border: solid black;
+    grid-area: ac;
+
+    img {
+        width: 235px;
+        height: 235px;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+.b4-nirvana {
+    background-color: $color-nirvana ;
+    border: solid black;
+    grid-area: ad;
+
+    img {
+        width: 235px;
+        height: 235px;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+.b5-nirvana {
+    background-color: $color-nirvana ;
+    border: solid black;
+    grid-area: ae;
+
+    img {
+        width: 235px;
+        height: 235px;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+.b6-nirvana {
+    background-color: $color-nirvana ;
+    border: solid black;
+    grid-area: af;
+
+    img {
+        width: 235px;
+        height: 235px;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+.b7-nirvana {
+    background-color: $color-nirvana ;
+    border: solid black;
+    grid-area: ag;
+
+    img {
+        width: 235px;
+        height: 235px;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+.b8-nirvana {
+    background-color: $color-nirvana ;
+    border: solid black;
+    grid-area: ah;
+
+    img {
+        width: 235px;
+        height: 235px;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+.grid-nirvana {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(4, 250px);
+    justify-content: center;
+    gap: 15px;
+    grid-template-areas:
+        'aa aa aa ab'
+        'aa aa aa ac'
+        'aa aa aa ad'
+        'ah af ag ae';
+}
+
+.pie-nirvana {
+    background-color: yellow;
+    margin-top: 50px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+
+    .instagram {
+        font-size: 50px;
+        margin: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .grid-nirvana {
+        margin-top: 120px;
+        display: grid;
+        grid-template-columns: repeat(4, 80px);
+        grid-template-rows: repeat(4, 80px);
+        justify-content: center;
+        gap: 15px;
+        grid-template-areas:
+            'aa aa aa ab'
+            'aa aa aa ac'
+            'aa aa aa ad'
+            'ah af ag ae';
+    }
+
+    .b1-nirvana {
+        background-color: $color-nirvana ;
+        border: solid black;
+        grid-area: aa;
+
+        .h1-nirvana {
+            font-size: 20px;
+            margin-top: 5px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .h2-nirvana {
+            font-size: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .h3-nirvana {
+            margin-top: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            font-size: 15px;
+        }
+    }
+
+    .b2-nirvana {
+        background-color: $color-nirvana ;
+        border: solid black;
+        grid-area: ab;
+
+        img {
+            width: 65px;
+            height: 65px;
+            margin: 5px 5px 5px 5px;
+        }
+    }
+
+    .b3-nirvana {
+        background-color: $color-nirvana ;
+        border: solid black;
+        grid-area: ac;
+
+        img {
+            width: 65px;
+            height: 65px;
+            margin: 5px 5px 5px 5px;
+        }
+    }
+
+    .b4-nirvana {
+        background-color: $color-nirvana ;
+        border: solid black;
+        grid-area: ad;
+
+        img {
+            width: 65px;
+            height: 65px;
+            margin: 5px 5px 5px 5px;
+        }
+    }
+
+    .b5-nirvana {
+        background-color: $color-nirvana ;
+        border: solid black;
+        grid-area: ae;
+
+        img {
+            width: 65px;
+            height: 65px;
+            margin: 5px 5px 5px 5px;
+        }
+    }
+
+    .b6-nirvana {
+        background-color: $color-nirvana ;
+        border: solid black;
+        grid-area: af;
+
+        img {
+            width: 65px;
+            height: 65px;
+            margin: 5px 5px 5px 5px;
+        }
+    }
+
+    .b7-nirvana {
+        background-color: $color-nirvana ;
+        border: solid black;
+        grid-area: ag;
+
+        img {
+            width: 65px;
+            height: 65px;
+            margin: 5px 5px 5px 5px;
+        }
+    }
+
+    .b8-nirvana {
+        background-color: $color-nirvana ;
+        border: solid black;
+        grid-area: ah;
+
+        img {
+
+            width: 65px;
+            height: 65px;
+            margin: 5px 5px 5px 5px;
+        }
+    }
+}

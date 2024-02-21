@@ -1,0 +1,58 @@
+.imgs-navbar {
+    width: 100px;
+    height: 100px;
+}
+
+.h1-inicio {
+    margin-top: 150px;
+    font-size: $fuente-media;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.imgs-inicio {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.pie {
+    background-color: black;
+    margin-top: 50px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+
+    .instagram {
+        font-size: 50px;
+        margin: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.instagram {
+    font-size: 50px;
+}
+
+@media (max-width: 400px) {
+    .h1-inicio {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .imgs-inicio {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .imgs-navbar {
+        width: 50px;
+        height: 50px;
+    }
+}

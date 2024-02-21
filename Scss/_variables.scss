@@ -1,0 +1,17 @@
+/*Paleta de colores */
+$color-nirvana: yellow;
+$color-eminem: lightblue;
+$color-deftones: black;
+
+/*TAMAÑOS DE FUENTES*/
+$fuente-chica: 15px;
+$fuente-media: 30px;
+$fuente-grande: 50px;
+
+
+@mixin centrar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}

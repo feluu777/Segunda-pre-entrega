@@ -1,0 +1,117 @@
+.body-galeria {
+    background-image: url(../imgs/nirvana-fondo.webp);
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: solid white;
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.b1 {
+    background-color: red;
+    grid-area: a1;
+}
+
+.b2 {
+    background-color: blue;
+    grid-area: a2;
+}
+
+.b3 {
+    background-color: yellow;
+    grid-area: a3;
+}
+
+.b4 {
+    background-color: green;
+    grid-area: a4;
+}
+
+.b5 {
+    background-color: blueviolet;
+    grid-area: a5;
+}
+
+.b6 {
+    background-color: chocolate;
+    grid-area: a6;
+}
+
+.grid {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(3, 250px);
+    justify-content: center;
+    gap: 15px;
+    grid-template-areas:
+        'a6 a6 a3'
+        'a4 a2 a2 '
+        'a1 a1 a5';
+}
+
+@media (max-width: 400px) {
+    .box {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        border: solid white;
+    }
+
+    .box img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .b1 {
+        background-color: red;
+        grid-area: a1;
+    }
+
+    .b2 {
+        background-color: blue;
+        grid-area: a2;
+    }
+
+    .b3 {
+        background-color: yellow;
+        grid-area: a3;
+    }
+
+    .b4 {
+        background-color: green;
+        grid-area: a4;
+    }
+
+    .b5 {
+        background-color: blueviolet;
+        grid-area: a5;
+    }
+
+    .b6 {
+        background-color: chocolate;
+        grid-area: a6;
+    }
+
+    .grid {
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: repeat(3, 80px);
+        grid-template-rows: repeat(3, 80px);
+        justify-content: center;
+        gap: 15px;
+        grid-template-areas:
+            'a6 a6 a3'
+            'a4 a2 a2 '
+            'a1 a1 a5';
+    }
+}
