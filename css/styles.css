@@ -712,7 +712,7 @@
     grid-template-columns: repeat(3, 80px);
     grid-template-rows: repeat(4, 80px);
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     grid-template-areas: "aa aa ab ac" "aa aa ad ae" "aa aa af ag";
   }
   .h2-deftones2 {
