@@ -553,7 +553,7 @@
   justify-content: center;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) {
   .b1-deftones {
     background-color: black;
     border: solid black;
