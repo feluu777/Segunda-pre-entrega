@@ -1,7 +1,62 @@
 @charset "UTF-8";
-
+/*Base*/
 /*Paleta de colores */
 /*TAMAÑOS DE FUENTES*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Components*/
+/*Footer inicio y galeria*/
+.pie {
+  background-color: black;
+  margin-top: 50px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Footer Nirvana*/
+.pie-nirvana {
+  background-color: yellow;
+  margin-top: 50px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Footer Deftones*/
+.pie-deftones {
+  background-color: black;
+  margin-top: 50px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Footer Eminem*/
+.pie-eminem {
+  text-align: center;
+  font-size: 50px;
+  background-color: lightblue;
+}
+
+.instagram {
+  font-size: 50px;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.imgs-navbar {
+  width: 100px;
+  height: 100px;
+}
+
+/*Layouts*/
 .blog-eminem {
   background-color: lightblue;
   border: solid black;
@@ -9,37 +64,32 @@
   margin-right: 50px;
   margin-left: 50px;
 }
-
 .blog-eminem h2 {
   font-size: 50px;
   text-align: center;
   background-color: lightblue;
 }
-
 .blog-eminem h3 {
   font-size: 30px;
   text-align: center;
   display: flex;
   justify-content: center;
 }
-
 .blog-eminem div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .blog-eminem div img {
   width: 150px;
   height: 150px;
   border: solid black 3px;
 }
-
 .blog-eminem div p {
   margin-top: 10px;
-  background-color: white;
-  border: solid black;
+  background-color: rgb(132, 195, 216);
+  border: solid white;
   font-size: 20px;
 }
 
@@ -54,31 +104,25 @@
     height: 75px;
     width: 75px;
   }
-
   .blog-eminem {
     margin-left: 20px;
     margin-right: 20px;
   }
-
   .pie-eminem {
     margin-top: 100px;
   }
-
   .instagram {
     color: white;
   }
-
   p {
     margin: 5px 15px 5px 15px;
   }
 }
-
 .b1-nirvana {
   background-color: yellow;
   border: solid black;
   grid-area: aa;
 }
-
 .b1-nirvana .h1-nirvana {
   font-size: 50px;
   margin-top: 30px;
@@ -86,7 +130,6 @@
   display: flex;
   justify-content: center;
 }
-
 .b1-nirvana .h2-nirvana {
   font-size: 30px;
   margin: 10px 50px 10px 50px;
@@ -94,7 +137,6 @@
   display: flex;
   justify-content: center;
 }
-
 .b1-nirvana .h3-nirvana {
   margin-top: 30px;
   text-align: center;
@@ -108,7 +150,6 @@
   border: solid black;
   grid-area: ab;
 }
-
 .b2-nirvana img {
   width: 235px;
   height: 235px;
@@ -123,7 +164,6 @@
   border: solid black;
   grid-area: ac;
 }
-
 .b3-nirvana img {
   width: 235px;
   height: 235px;
@@ -135,7 +175,6 @@
   border: solid black;
   grid-area: ad;
 }
-
 .b4-nirvana img {
   width: 235px;
   height: 235px;
@@ -147,7 +186,6 @@
   border: solid black;
   grid-area: ae;
 }
-
 .b5-nirvana img {
   width: 235px;
   height: 235px;
@@ -159,7 +197,6 @@
   border: solid black;
   grid-area: af;
 }
-
 .b6-nirvana img {
   width: 235px;
   height: 235px;
@@ -171,7 +208,6 @@
   border: solid black;
   grid-area: ag;
 }
-
 .b7-nirvana img {
   width: 235px;
   height: 235px;
@@ -183,7 +219,6 @@
   border: solid black;
   grid-area: ah;
 }
-
 .b8-nirvana img {
   width: 235px;
   height: 235px;
@@ -200,22 +235,6 @@
   grid-template-areas: "aa aa aa ab" "aa aa aa ac" "aa aa aa ad" "ah af ag ae";
 }
 
-.pie-nirvana {
-  background-color: yellow;
-  margin-top: 50px;
-  height: 75px;
-  display: flex;
-  justify-content: center;
-}
-
-.pie-nirvana .instagram {
-  font-size: 50px;
-  margin: 10px 10px 10px 10px;
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-
 @media (max-width: 400px) {
   .grid-nirvana {
     margin-top: 120px;
@@ -226,13 +245,11 @@
     gap: 15px;
     grid-template-areas: "aa aa aa ab" "aa aa aa ac" "aa aa aa ad" "ah af ag ae";
   }
-
   .b1-nirvana {
     background-color: yellow;
     border: solid black;
     grid-area: aa;
   }
-
   .b1-nirvana .h1-nirvana {
     font-size: 20px;
     margin-top: 5px;
@@ -240,14 +257,12 @@
     display: flex;
     justify-content: center;
   }
-
   .b1-nirvana .h2-nirvana {
     font-size: 10px;
     text-align: center;
     display: flex;
     justify-content: center;
   }
-
   .b1-nirvana .h3-nirvana {
     margin-top: 10px;
     text-align: center;
@@ -255,97 +270,77 @@
     justify-content: center;
     font-size: 15px;
   }
-
   .b2-nirvana {
     background-color: yellow;
     border: solid black;
     grid-area: ab;
   }
-
   .b2-nirvana img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
-
   .b3-nirvana {
     background-color: yellow;
     border: solid black;
     grid-area: ac;
   }
-
   .b3-nirvana img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
-
   .b4-nirvana {
     background-color: yellow;
     border: solid black;
     grid-area: ad;
   }
-
   .b4-nirvana img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
-
   .b5-nirvana {
     background-color: yellow;
     border: solid black;
     grid-area: ae;
   }
-
   .b5-nirvana img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
-
   .b6-nirvana {
     background-color: yellow;
     border: solid black;
     grid-area: af;
   }
-
   .b6-nirvana img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
-
   .b7-nirvana {
     background-color: yellow;
     border: solid black;
     grid-area: ag;
   }
-
   .b7-nirvana img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
-
   .b8-nirvana {
     background-color: yellow;
     border: solid black;
     grid-area: ah;
   }
-
   .b8-nirvana img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
 }
-
-.imgs-navbar {
-  width: 100px;
-  height: 100px;
-}
-
 .h1-inicio {
   margin-top: 150px;
   font-size: 30px;
@@ -355,9 +350,35 @@
 }
 
 .imgs-inicio {
-  margin-left: 100px;
-  margin-top: 20px;
-  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+}
+
+.inicio-eminem {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.inicio-deftones {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.inicio-nirvana {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  color: black;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 .pie {
@@ -367,7 +388,6 @@
   display: flex;
   justify-content: center;
 }
-
 .pie .instagram {
   font-size: 50px;
   margin: 10px 10px 10px 10px;
@@ -385,45 +405,39 @@
     text-align: center;
     font-size: 25px;
   }
-
   .imgs-inicio {
     display: flex;
     flex-direction: column-reverse;
     width: 200px;
     height: 200px;
-    margin-top: 10px;
+    margin-left: 100px;
   }
-
   .imgs-navbar {
     width: 50px;
     height: 50px;
   }
 }
-
 .b1-deftones {
   background-color: black;
   border: solid black;
   grid-area: aa;
 }
-
 .b1-deftones .h1-deftones {
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 30px;
   text-align: center;
   color: white;
   display: flex;
   justify-content: center;
 }
-
 .b1-deftones .h2-deftones {
   color: white;
-  font-size: 30px;
+  font-size: 15px;
   margin: 10px 50px 10px 50px;
   text-align: center;
   display: flex;
   justify-content: center;
 }
-
 .b1-deftones .h3-deftones {
   margin-top: 30px;
   text-align: center;
@@ -438,10 +452,9 @@
   border: solid black;
   grid-area: ab;
 }
-
 .b2-deftones img {
-  width: 235px;
-  height: 235px;
+  width: 185px;
+  height: 185px;
   margin: 5px 5px 5px 5px;
   display: flex;
   justify-content: space-around;
@@ -453,10 +466,9 @@
   border: solid black;
   grid-area: ac;
 }
-
 .b3-deftones img {
-  width: 235px;
-  height: 235px;
+  width: 185px;
+  height: 185px;
   margin: 5px 5px 5px 5px;
 }
 
@@ -465,10 +477,9 @@
   border: solid black;
   grid-area: ad;
 }
-
 .b4-deftones img {
-  width: 235px;
-  height: 235px;
+  width: 185px;
+  height: 185px;
   margin: 5px 5px 5px 5px;
 }
 
@@ -477,10 +488,9 @@
   border: solid black;
   grid-area: ae;
 }
-
 .b5-deftones img {
-  width: 235px;
-  height: 235px;
+  width: 185px;
+  height: 185px;
   margin: 5px 5px 5px 5px;
 }
 
@@ -489,10 +499,9 @@
   border: solid black;
   grid-area: af;
 }
-
 .b6-deftones img {
-  width: 235px;
-  height: 235px;
+  width: 185px;
+  height: 185px;
   margin: 5px 5px 5px 5px;
 }
 
@@ -501,18 +510,17 @@
   border: solid black;
   grid-area: ag;
 }
-
 .b7-deftones img {
-  width: 235px;
-  height: 235px;
+  width: 185px;
+  height: 185px;
   margin: 5px 5px 5px 5px;
 }
 
 .grid-deftones {
   margin-top: 200px;
   display: grid;
-  grid-template-columns: repeat(3, 250px);
-  grid-template-rows: repeat(4, 250px);
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(4, 200px);
   justify-content: center;
   gap: 15px;
   grid-template-areas: "aa aa ab ac" "aa aa ad ae" "aa aa af ag";
@@ -538,7 +546,6 @@
   display: flex;
   justify-content: center;
 }
-
 .pie-deftones .instagram {
   font-size: 50px;
   margin: 10px 10px 10px 10px;
@@ -552,7 +559,6 @@
     border: solid black;
     grid-area: aa;
   }
-
   .b1-deftones .h1-deftones {
     font-size: 20px;
     margin-top: 10px;
@@ -561,7 +567,6 @@
     display: flex;
     justify-content: center;
   }
-
   .b1-deftones .h2-deftones {
     color: white;
     font-size: 7px;
@@ -570,7 +575,6 @@
     display: flex;
     justify-content: center;
   }
-
   .b1-deftones .h3-deftones {
     margin-top: 30px;
     text-align: center;
@@ -579,13 +583,11 @@
     font-size: 10px;
     color: white;
   }
-
   .b2-deftones {
     background-color: black;
     border: solid black;
     grid-area: ab;
   }
-
   .b2-deftones img {
     width: 65px;
     height: 65px;
@@ -594,91 +596,77 @@
     justify-content: space-around;
     align-items: center;
   }
-
   .b3-deftones {
     background-color: black;
     border: solid black;
     grid-area: ac;
   }
-
   .b3-deftones img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
-
   .b4-deftones {
     background-color: black;
     border: solid black;
     grid-area: ad;
   }
-
   .b4-deftones img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
-
   .b5-deftones {
     background-color: black;
     border: solid black;
     grid-area: ae;
   }
-
   .b5-deftones img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
-
   .b6-deftones {
     background-color: black;
     border: solid black;
     grid-area: af;
   }
-
   .b6-deftones img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
-
   .b7-deftones {
     background-color: black;
     border: solid black;
     grid-area: ag;
   }
-
   .b7-deftones img {
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
   }
+  .grid-deftones {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(4, 80px);
+    justify-content: center;
+    gap: 15px;
+    grid-template-areas: "aa aa ab ac" "aa aa ad ae" "aa aa af ag";
+  }
+  .h2-deftones2 {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    margin-left: 80px;
+  }
+  .fotos-deftones {
+    margin-left: 70px;
+  }
 }
-
-.grid-deftones {
-  margin-top: 200px;
-  display: grid;
-  grid-template-columns: repeat(3, 80px);
-  grid-template-rows: repeat(4, 100px);
-  justify-content: center;
-  gap: 15px;
-  grid-template-areas: "aa aa ab ac" "aa aa ad ae" "aa aa af ag";
-}
-
-.h2-deftones2 {
-  background-color: black;
-  color: white;
-  margin-top: 10px;
-  text-align: center;
-  width: 200px;
-  margin-left: 80px;
-}
-
-.fotos-deftones {
-  margin-left: 70px;
-}
-
 .body-galeria {
   background-image: url(../imgs/nirvana-fondo.webp);
 }
@@ -743,43 +731,35 @@
     position: relative;
     border: solid white;
   }
-
   .box img {
     height: 100%;
     width: 100%;
     position: absolute;
   }
-
   .b1 {
     background-color: red;
     grid-area: a1;
   }
-
   .b2 {
     background-color: blue;
     grid-area: a2;
   }
-
   .b3 {
     background-color: yellow;
     grid-area: a3;
   }
-
   .b4 {
     background-color: green;
     grid-area: a4;
   }
-
   .b5 {
     background-color: blueviolet;
     grid-area: a5;
   }
-
   .b6 {
     background-color: chocolate;
     grid-area: a6;
   }
-
   .grid {
     margin-top: 200px;
     display: grid;

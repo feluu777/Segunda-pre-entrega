@@ -4,7 +4,7 @@
     grid-area: aa;
 
     .h1-deftones {
-        font-size: $fuente-grande;
+        font-size: $fuente-media;
         margin-top: 30px;
         text-align: center;
         color: white;
@@ -14,7 +14,7 @@
 
     .h2-deftones {
         color: white;
-        font-size: $fuente-media;
+        font-size: $fuente-chica;
         margin: 10px 50px 10px 50px;
         text-align: center;
         display: flex;
@@ -37,8 +37,8 @@
     grid-area: ab;
 
     img {
-        width: 235px;
-        height: 235px;
+        width: 185px;
+        height: 185px;
         margin: 5px 5px 5px 5px;
         @include centrar
     }
@@ -50,8 +50,8 @@
     grid-area: ac;
 
     img {
-        width: 235px;
-        height: 235px;
+        width: 185px;
+        height: 185px;
         margin: 5px 5px 5px 5px;
     }
 }
@@ -62,8 +62,8 @@
     grid-area: ad;
 
     img {
-        width: 235px;
-        height: 235px;
+        width: 185px;
+        height: 185px;
         margin: 5px 5px 5px 5px;
     }
 }
@@ -74,8 +74,8 @@
     grid-area: ae;
 
     img {
-        width: 235px;
-        height: 235px;
+        width: 185px;
+        height: 185px;
         margin: 5px 5px 5px 5px;
     }
 }
@@ -86,8 +86,8 @@
     grid-area: af;
 
     img {
-        width: 235px;
-        height: 235px;
+        width: 185px;
+        height: 185px;
         margin: 5px 5px 5px 5px;
     }
 }
@@ -98,8 +98,8 @@
     grid-area: ag;
 
     img {
-        width: 235px;
-        height: 235px;
+        width: 185px;
+        height: 185px;
         margin: 5px 5px 5px 5px;
     }
 }
@@ -107,8 +107,8 @@
 .grid-deftones {
     margin-top: 200px;
     display: grid;
-    grid-template-columns: repeat(3, 250px);
-    grid-template-rows: repeat(4, 250px);
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 200px);
     justify-content: center;
     gap: 15px;
     grid-template-areas:
@@ -144,6 +144,9 @@
         justify-content: center;
     }
 }
+
+
+
 
 
 
@@ -253,30 +256,31 @@
             margin: 5px 5px 5px 5px;
         }
     }
-}
 
-.grid-deftones {
-    margin-top: 200px;
-    display: grid;
-    grid-template-columns: repeat(3, 80px);
-    grid-template-rows: repeat(4, 100px);
-    justify-content: center;
-    gap: 15px;
-    grid-template-areas:
-        'aa aa ab ac'
-        'aa aa ad ae'
-        'aa aa af ag';
-}
 
-.h2-deftones2 {
-    background-color: black;
-    color: white;
-    margin-top: 10px;
-    text-align: center;
-    width: 200px;
-    margin-left: 80px;
-}
+    .grid-deftones {
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: repeat(3, 80px);
+        grid-template-rows: repeat(4, 80px);
+        justify-content: center;
+        gap: 15px;
+        grid-template-areas:
+            'aa aa ab ac'
+            'aa aa ad ae'
+            'aa aa af ag';
+    }
 
-.fotos-deftones {
-    margin-left: 70px;
+    .h2-deftones2 {
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        text-align: center;
+        width: 200px;
+        margin-left: 80px;
+    }
+
+    .fotos-deftones {
+        margin-left: 70px;
+    }
 }

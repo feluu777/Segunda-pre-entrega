@@ -1,8 +1,3 @@
-.imgs-navbar {
-    width: 100px;
-    height: 100px;
-}
-
 .h1-inicio {
     margin-top: 150px;
     font-size: $fuente-media;
@@ -12,10 +7,37 @@
 }
 
 .imgs-inicio {
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
 }
+
+.inicio-eminem {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.inicio-deftones {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.inicio-nirvana {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 
 .pie {
     background-color: black;
@@ -48,7 +70,7 @@
         flex-direction: column-reverse;
         width: 200px;
         height: 200px;
-        margin-top: 10px;
+        margin-left: 100px;
     }
 
     .imgs-navbar {

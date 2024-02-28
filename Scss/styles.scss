@@ -1,6 +1,15 @@
-@import "variables";
-@import "eminem";
-@import "anirvana";
-@import "inicio";
-@import "deftones";
-@import "galeria";
+/*Base*/
+@import "base/variables";
+@import "base/reset";
+
+
+/*Components*/
+@import "components/footer";
+@import "components/navbar";
+
+/*Layouts*/
+@import "layouts/eminem";
+@import "layouts/anirvana";
+@import "layouts/inicio";
+@import "layouts/deftones";
+@import "layouts/galeria";

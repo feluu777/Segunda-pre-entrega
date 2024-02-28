@@ -1,0 +1,42 @@
+/*Footer inicio y galeria*/
+.pie {
+    background-color: black;
+    margin-top: 50px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Footer Nirvana*/
+.pie-nirvana {
+    background-color: yellow;
+    margin-top: 50px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Footer Deftones*/
+.pie-deftones {
+    background-color: $color-deftones;
+    margin-top: 50px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Footer Eminem*/
+.pie-eminem {
+    text-align: center;
+    font-size: 50px;
+    background-color: lightblue;
+}
+
+
+.instagram {
+    font-size: 50px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
