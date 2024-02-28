@@ -93,6 +93,30 @@
   font-size: 20px;
 }
 
+.conciertos-eminem {
+  background-color: lightblue;
+  border: solid black;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.conciertos-eminem h3 {
+  margin-top: 15px;
+  color: black;
+  text-align: center;
+}
+.conciertos-eminem p {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+.conciertos-eminem img {
+  height: 300px;
+  width: 300px;
+  margin-left: 450px;
+  margin-bottom: 20px;
+}
+
 .pie-eminem {
   text-align: center;
   font-size: 50px;
@@ -233,6 +257,29 @@
   justify-content: center;
   gap: 15px;
   grid-template-areas: "aa aa aa ab" "aa aa aa ac" "aa aa aa ad" "ah af ag ae";
+}
+
+.conciertos-nirvana {
+  background-color: yellow;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.conciertos-nirvana h3 {
+  margin-top: 15px;
+  color: black;
+  text-align: center;
+}
+.conciertos-nirvana p {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+.conciertos-nirvana img {
+  height: 300px;
+  width: 300px;
+  margin-left: 450px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 400px) {
@@ -456,9 +503,6 @@
   width: 185px;
   height: 185px;
   margin: 5px 5px 5px 5px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .b3-deftones {
@@ -539,6 +583,25 @@
   margin-left: 530px;
 }
 
+.conciertos-deftones {
+  background-color: black;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.conciertos-deftones h3 {
+  color: white;
+  text-align: center;
+}
+.conciertos-deftones p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.conciertos-deftones img {
+  margin-left: 450px;
+  margin-bottom: 20px;
+}
+
 .pie-deftones {
   background-color: black;
   margin-top: 50px;
@@ -553,7 +616,7 @@
   justify-content: center;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .b1-deftones {
     background-color: black;
     border: solid black;
@@ -592,9 +655,6 @@
     width: 65px;
     height: 65px;
     margin: 5px 5px 5px 5px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
   }
   .b3-deftones {
     background-color: black;

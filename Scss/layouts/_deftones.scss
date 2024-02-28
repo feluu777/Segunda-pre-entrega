@@ -40,7 +40,7 @@
         width: 185px;
         height: 185px;
         margin: 5px 5px 5px 5px;
-        @include centrar
+
     }
 }
 
@@ -130,6 +130,28 @@
     margin-left: 530px;
 }
 
+.conciertos-deftones {
+    background-color: black;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    h3 {
+        color: white;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    img {
+        margin-left: 450px;
+        margin-bottom: 20px;
+    }
+}
+
 .pie-deftones {
     background-color: $color-deftones;
     margin-top: 50px;
@@ -150,7 +172,7 @@
 
 
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
     .b1-deftones {
         background-color: $color-deftones ;
         border: solid black;
@@ -193,7 +215,7 @@
             width: 65px;
             height: 65px;
             margin: 5px 5px 5px 5px;
-            @include centrar
+
         }
     }
 

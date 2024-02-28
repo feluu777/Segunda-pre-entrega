@@ -39,6 +39,33 @@
     }
 }
 
+.conciertos-eminem {
+    background-color: lightblue;
+    border: solid black;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+    h3 {
+        margin-top: 15px;
+        color: black;
+        text-align: center;
+    }
+
+    p {
+        color: black;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+        margin-left: 450px;
+        margin-bottom: 20px;
+    }
+}
+
 .pie-eminem {
     text-align: center;
     font-size: 50px;
