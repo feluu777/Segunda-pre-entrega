@@ -152,20 +152,6 @@
     }
 }
 
-.pie-deftones {
-    background-color: $color-deftones;
-    margin-top: 50px;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-
-    .instagram {
-        font-size: 50px;
-        margin: 10px 10px 10px 10px;
-        display: flex;
-        justify-content: center;
-    }
-}
 
 
 
@@ -189,18 +175,13 @@
 
         .h2-deftones {
             color: white;
-            font-size: 7px;
+            font-size: 5px;
             text-align: center;
-            width: 80px;
-            display: flex;
-            justify-content: center;
         }
 
         .h3-deftones {
             margin-top: 30px;
             text-align: center;
-            display: flex;
-            justify-content: center;
             font-size: 10px;
             color: white;
         }
@@ -299,10 +280,12 @@
         margin-top: 10px;
         text-align: center;
         width: 200px;
-        margin-left: 80px;
+        margin-left: 95px;
     }
 
     .fotos-deftones {
+        width: 250px;
+        height: 250px;
         margin-left: 70px;
     }
 

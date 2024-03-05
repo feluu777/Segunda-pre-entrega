@@ -12,7 +12,7 @@
     }
 
     h3 {
-        font-size: $fuente-media;
+        font-size: 30px;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -46,11 +46,6 @@
     margin-left: 50px;
     margin-top: 50px;
 
-    h3 {
-        margin-top: 15px;
-        color: black;
-        text-align: center;
-    }
 
     p {
         color: black;
@@ -84,6 +79,10 @@
         margin-right: 20px;
     }
 
+    h3 {
+        font-size: 10px;
+    }
+
     .pie-eminem {
         margin-top: 100px;
     }
@@ -99,8 +98,8 @@
     .conciertos-eminem {
         background-color: lightblue;
         border: solid black;
-        margin-right: 50px;
-        margin-left: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
         margin-top: 50px;
 
         h3 {
@@ -118,7 +117,7 @@
         img {
             height: 200px;
             width: 200px;
-            margin-left: 40px;
+            margin-left: 70px;
             margin-bottom: 20px;
         }
     }
